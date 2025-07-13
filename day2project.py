@@ -37,8 +37,8 @@ def is_palindrome(s):
     s=s.lower()
     return s==s[::-1]
       
-print(is_palindrome("satyam Is a good boy"))
-print(is_palindrome("Racecar"))
+print(is_palindrome("rashmi Is a girl"))
+print(is_palindrome("bulletbike"))
 
 # Clean and Format String
 #    Given text = "   hello world! welcome to Python.   ", write code to:
@@ -96,8 +96,8 @@ def is_anagram(str1,str2):
     str1=str1.replace(" ","").lower()
     str2=str2.replace(" ","").lower()
     return sorted(str1) == sorted(str2)
-print(is_anagram("Care","Race"))
-print(is_anagram("Satyam","Sapkota"))
+print(is_anagram("Bullet","Bike"))
+print(is_anagram("Rashmi","Koirala"))
 
 
 # Word Frequency Counter
